@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
+  const CatalogPage = lazy(() => import("./pages/CatalogPage/CatalogPage.jsx"));
   const NotFoundPage = lazy(() =>
     import("./pages/NotFoundPage/NotFoundPage.jsx")
   );
@@ -13,12 +14,10 @@ function App() {
     <>
       <Navigations />
 
-      {/* <h1>TravelTrucks</h1> */}
       <Suspense fallback={<Loader />}>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          {/* <Route path="/catalog" element={<CatalogPage />} />
-          <Route path="/catalog/:id" element={<CampersPage />} /> */}
+          <Route path="/catalog" element={<CatalogPage />} />
 
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
