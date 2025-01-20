@@ -1,0 +1,65 @@
+.truckName {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--main);
+}
+.truckRating {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--main);
+}
+.truckLocation {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--main);
+  padding-left: 36px;
+}
+.truckPrice {
+  margin-top: 16px;
+  margin-top: 16px;
+  margin-bottom: 28px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--main);
+}
+.truckGallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+.truckImage {
+  border-radius: 10px;
+  width: 292px;
+  height: 312px;
+  object-fit: cover;
+  margin-bottom: 28px;
+}
+.truckDescription {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text);
+  margin-bottom: 28px;
+}
+.truckAddInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--main);
+}

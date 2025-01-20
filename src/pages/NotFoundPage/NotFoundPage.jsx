@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Container from "../../components/Container/Container";
 
-import css from "./HomePage.module.css";
+import css from "./NotFoundPage.module.css";
 export default function HomePage() {
   return (
     <>

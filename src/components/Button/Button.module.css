@@ -1,7 +1,18 @@
 .primary {
   border-radius: 200px;
-  padding: 16px 60px;
+  padding: 16px 40px;
   width: 166px;
   height: 56px;
   background: var(--button);
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: var(--white);
+  transition: background 0.3s ease;
+}
+.primary:hover {
+  background: var(--button-hover);
 }
